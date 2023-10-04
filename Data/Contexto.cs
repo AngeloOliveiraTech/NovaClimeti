@@ -9,7 +9,9 @@ namespace NovaClimeti.Data
         {
 
         }
-
+        public DbSet<EspecialidadeMedica> EspecialidadeMedica { get; set; }
+        public DbSet<Medicos> Medicos { get; set; }
+        public DbSet<Planos> Planos { get; set; }
         public DbSet<Vaga> Vaga { get; set; }
         public DbSet<Curriculum> Curriculum{ get; set; }
          
