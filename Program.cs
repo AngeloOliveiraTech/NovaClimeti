@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using NovaClimeti.Data;
 using System;
 
